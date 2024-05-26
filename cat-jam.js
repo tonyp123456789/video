@@ -30,7 +30,7 @@
                 if (existingVideo) {
                     existingVideo.remove();
                 }
-                const videoURL = "https://github.com/tonyp123456789/video/blob/main/video.webm";
+                const videoURL = "https://github.com/tonyp123456789/video/raw/main/video.webm";
                 const videoElement = document.createElement("video");
                 videoElement.setAttribute("loop", "true");
                 videoElement.setAttribute("autoplay", "true");
